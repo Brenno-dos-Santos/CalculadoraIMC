@@ -28,5 +28,5 @@ function calcularIMC(peso, altura ){
      else if(conta>40 ){
         classificacao="Você está com obesidade III"
     }
-    console.log(`Seu peso é ${peso}, sua altura é ${altura} e seu IMC é ${conta}, ${classificacao}`);
+    alert(`Seu peso é ${peso}, sua altura é ${altura} e seu IMC é ${conta.toFixed(2)}, ${classificacao}`);
 }

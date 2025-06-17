@@ -1,0 +1,41 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    
+    background:linear-gradient(135deg,#b40202,#000000);
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: Arial;
+    max-width: 400px;
+    margin:0 auto;
+    padding: 20px;
+    padding-top: 100px;
+}
+
+h1 {
+    
+    padding-top: 10px;
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 15px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #b40202;
+    color: rgb(255, 255, 255);
+   border:brown ;
+    margin-top: 10px;
+}
